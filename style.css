@@ -12,10 +12,6 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-ummah
 */
 
-li#country-select {
-  visibility: hidden;
-}
-
 .donate-nav-item {
   display: none;
 }
