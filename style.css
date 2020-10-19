@@ -12,45 +12,38 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-ummah
 */
 
-/*
-	Display which theme is active right now in bottom right corner
-	See also planet4-child-theme. Feel free to drop or hide display
-*/
-
 li#country-select {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 .donate-nav-item {
-	display: none;
+  display: none;
 }
 
 
 nav#header {
-	background-color: white;
+  background-color: white;
 }
 
 .top-navigation a.nav-link {
-	color: #1c4262;
+  color: #1c4262;
 }
 
 a.site-logo img {
-		content:url("https://storage.googleapis.com/planet4-ummah-stateless-develop/2020/10/c203f149-unmah-for-earth-logo.png");
-	
-	height: 4rem;
+  height: 4rem;
 }
 
 @media only screen and (max-width: 992px) {
-	.top-navigation {
+  .top-navigation {
     height: 5rem;
-	}
-	a.site-logo img {
-		height:5rem;
-	}
+  }
+  a.site-logo img {
+    height:5rem;
+  }
 }
 
 @media (min-width: 992px) {
-	.navbar-dropdown {
+  .navbar-dropdown {
     display: -webkit-box;
     display: flex;
     -webkit-box-flex: 1;
@@ -58,14 +51,14 @@ a.site-logo img {
     -webkit-box-pack: justify;
     justify-content: left!important;
     padding: 0;
-	}
-	
-	.nav-item.wpml-ls-item {
+  }
+
+  .nav-item.wpml-ls-item {
     margin-left:0;
-		margin-right:20px
-	}
-	
-	.top-navigation a.nav-link {
-		padding:10px;
-	}
+    margin-right:20px
+  }
+
+  .top-navigation a.nav-link {
+    padding:10px;
+  }
 }
