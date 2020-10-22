@@ -36,6 +36,14 @@ a.site-logo img {
   a.site-logo img {
     height:5rem;
   }
+
+  a.site-logo {
+    padding-right: 1.5em;
+  }
+
+  html[dir="rtl"] a.site-logo {
+    padding-right: 15px;
+  }
 }
 
 @media (min-width: 992px) {
