@@ -65,4 +65,8 @@ a.site-logo img {
   .top-navigation a.nav-link {
     padding:10px;
   }
+
+  .navbar-dropdown .nav-item {
+    padding: 0 15px;
+  }
 }
